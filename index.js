@@ -1,7 +1,4 @@
-// Style timeblocks based on current time
-const TEST_TIME = "2022-11-28T13:59:00.000"
-let currentTime = dayjs(TEST_TIME)
-// let currentTime = dayjs()
+let currentTime = dayjs()
 $("#currentDay").text(currentTime.format("MMM DD, YYYY hh:mm"))
 
 $(".time-block").each( (i, element) => {
